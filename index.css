@@ -1,0 +1,26 @@
+.online-user {
+	background-color: lightgreen;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	border: 1px solid black;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+.online-circle {
+	background-color: green;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 100vh;
+	order: -1;
+}
+
+.online-users {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
